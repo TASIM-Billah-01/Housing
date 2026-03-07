@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ArchInner</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors:{
+dark:"#1a1a1e",
+light:"#f8f7f5"
+},
+fontFamily:{
+sans:["DM Sans","sans-serif"],
+serif:["Cormorant Garamond","serif"]
+}
+}
+}
+}
+</script>
+
+</head>
+
+<body class="bg-light font-sans min-h-screen">
+
+<!-- HEADER -->
+<header  class=" bg-[rgba(248,247,245,0.85)] backdrop-blur-lg border-b border-[rgba(109,110,115,0.15)] py-1">
+
+<nav class="max-w-[1280px] mx-auto px-8  h-[72px] flex items-center justify-between gap-8">
+
+<!-- LOGO -->
+<a href="#" class=" group">
+
+<div class="flex items-end gap-1">
+
+<!-- <div class="absolute top-0 left-0 w-5 h-5 bg-[#FE5443] rounded-full transition-transform duration-300 group-hover:scale-110"></div> -->
+<div class=" w-5 h-5 bg-[#FE5443] rounded-full transition-transform duration-300 group-hover:scale-110"></div>
+
+<div class="w-[14px] h-9 bg-[#6D6E73] transition-all  duration-300 skew-x-12 group-hover:scale-y-105"></div>
+<!-- <div class="absolute bottom-0 right-0 w-[14px] h-7 bg-slateCustom skew-x-[-10deg] transition-transform duration-300 group-hover:scale-y-105"></div> -->
+
+</div>
+
+<div class="leading-none">
+<span class="font-light  lowercase text-dark">arch</span>
+<span class="font-serif italic font-semibold text-xl tracking-[0.04em] text-[#6D6E73]">Inner</span>
+</div>
+
+</a>
+
+<!-- NAV LINKS -->
+<ul class="flex items-center">
+
+<li>
+    <a href="" class=" px-4 py-2 text-sm lg:text-base  lg:font-medium text-[#6D6E73] hover:text-dark hover:bg-black/5 rounded transition">Home</a>
+</li>
+
+<li>
+<a href="#" class=" px-4 py-2 text-sm lg:text-base  lg:font-medium text-[#6D6E73] hover:text-dark hover:bg-black/5 rounded transition">
+Projects
+</a>
+</li>
+
+<li>
+<a href="#" class=" px-4 py-2 text-sm lg:text-base  lg:font-medium text-[#6D6E73] hover:text-dark hover:bg-black/5 rounded transition">
+Services
+</a>
+</li>
+
+<li>
+<a href="#" class=" px-4 py-2 text-sm lg:text-base  lg:font-medium text-[#6D6E73] hover:text-dark hover:bg-black/5 rounded transition">
+About Us
+</a>
+</li>
+
+</ul>
+
+<!-- RIGHT SIDE -->
+<div class="hidden md:flex items-center gap-4">
+
+<div class="w-px h-5 bg-[rgba(109,110,115,0.15)]"></div>
+
+<button class="text-white bg-[#FE5443] px-6 py-2 rounded-full text-sm font-medium shadow-lg hover:-translate-y-[1px] hover:shadow-xl transition">
+Get In Touch
+</button>
+
+</div>
+
+
+
+</header>
+
+
+<!-- HERO -->
+<main>
+
+<div class="max-w-[1280px] mx-auto px-8 py-12 xl:py-20 text-center flex justify-between items-center">
+
+    <div>
+
+        <h1 class="font-serif text-[clamp(2.5rem,6vw,5rem)] leading-[1.1] text-dark">
+            Modern 
+            <span class="italic text-[#FE5443] block">Architecture</span>
+            <span class="italic text-[#FE5443]">Design</span><br>
+            
+        </h1>
+        
+        <p class="mt-6 text-[#6D6E73] max-w-[480px] mx-auto leading-relaxed">
+            arch INNER is where structural integrity meets refined interior aesthetics. We provide a seamless transition from construction....
+        </p>
+              <div class="flex gap-3 flex-wrap justify-center mt-2  ">
+        <!-- Book Consultation -->
+        <button class="bg-[#FE5443] text-white text-sm font-medium px-7 py-3 rounded-full hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(254,84,67,0.35)] transition-all duration-200">
+          Book Consultation
+        </button>
+
+        <!-- Watch Video -->
+        <button class="flex items-center gap-2 border border-dark text-dark text-sm font-medium px-7 py-3 rounded-full hover:border-[#FE5443] hover:text-[#FE5443] transition-colors duration-200">
+          <span class="w-5 h-5 rounded-full bg-dark flex items-center justify-center group-hover:bg-[#FE5443] transition-colors duration-200">
+            <i class="fa-solid fa-play text-white text-[0.5rem] ml-0.5"></i>
+          </span>
+          Watch Video
+        </button>
+      </div>
+        
+    </div>
+
+    <div>
+        <div class="relative">
+            <img src="./src/assets/Home.png" alt="" class="lg:h-[450px] xl:h-[500px]">
+        
+            <div class="absolute top-1 -right-6 flex gap-1  lg:top-3 lg:right-0 xl:top-3 xl:right-0 xl:text-lg text-[#FE5443] items-center">
+                <i class="fa-regular text-sm fa-circle-down"></i>
+                <p>scroll down</p>
+            </div>
+            
+            <div class="flex justify-end p-5 ">
+                <div class="flex gap-3 rounded-lg absolute bottom-0">
+                    <img src="./src/assets/Rectangle 7.png" alt="" class="h-24 lg:h-[150px] xl:h-auto:">
+                    <img src="./src/assets/Rectangle 8.png" alt="" class="h-24 lg:h-36 xl:h-auto">
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+
+</div>
+
+<div class="bg-[#e9e5e1] px-12 py-8">
+    
+    <div class="grid grid-cols-4 text-center divide-x-2 divide-gray-500">
+      
+      <!-- Item 1 -->
+      <div class="px-2 lg:px-8">
+        <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-black">10</h2>
+        <p class="text-gray-500 mt-2">Years Experience</p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="px-2 lg:px-8">
+        <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-black">240+</h2>
+        <p class="text-gray-500 mt-2">Projects Completed</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="px-2 lg:px-8">
+        <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-black">40+</h2>
+        <p class="text-gray-500 mt-2">Expert Designers</p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="px-2 lg:px-8">
+        <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-black">100+</h2>
+        <p class="text-gray-500 mt-2">Client Satisfaction</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</main>
+
+
+
+
+</body>
+</html>
