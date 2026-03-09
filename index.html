@@ -22,12 +22,25 @@ light:"#f8f7f5"
 },
 fontFamily:{
 sans:["DM Sans","sans-serif"],
-serif:["Cormorant Garamond","serif"]
+serif:["Cormorant Garamond","serif"],
+clash: ['"Clash Grotesk"', 'sans-serif'],
+    
 }
 }
 }
 }
 </script>
+
+<style>
+.card1{
+clip-path: path('M376 47C389.255 47 400 57.745 400 71V279C400 292.255 389.255 303 376 303H270C256.745 303 246 313.745 246 327C246 338.046 237.046 347 226 347H24C10.745 347 0 336.255 0 323V71C0 57.745 10.745 47 24 47H122C135.255 47 145.527 58.258 151.234 70.221C159.917 88.423 178.49 101 200 101C221.51 101 240.083 88.423 248.766 70.221C254.473 58.258 264.745 47 278 47H376Z');
+}
+
+.profile{
+clip-path: circle(45px at center);
+}
+</style>
+
 
 <style>
   .card{
@@ -420,12 +433,29 @@ class="absolute -bottom-16 right-12 sm:w-44 sm:h-36 lg:w-56 lg:h-44 xl:h-56 roun
 
   </div>
 
+  
 
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3  gap-8 sm:gap-x-36 lg:gap-12 lg:gap-x-64  xl:gap-12 xl:gap-x-0  sm:overflow-x-scroll xl:overflow-x-scroll">
+<h1 class="text-center text-[#313131] text-5xl leading-normal font-semibold tracking-wide  my-6  [font-family:'Clash_Grotesk']">
+      We Shape Interiors That<br/>
+      <span class="text-[#FE5443]">Reflect</span> Your Story
+    </h1>
 
-  <div class="hover:-translate-y-2 relative w-[388px] h-[338px]">
+  <!-- <div class="grid sm:grid-cols-2 lg:grid-cols-3  gap-8 sm:gap-x-36 lg:gap-12 lg:gap-x-[320px]  xl:gap-12 xl:gap-x-16  sm:overflow-x-scroll xl:overflow-x-hidden"> -->
+    <div class="grid 
+sm:grid-cols-2 
+lg:grid-cols-3 
+gap-8 
+sm:gap-x-36
+lg:gap-x-[320px]
+xl:gap-x-12
+lg:gap-12 
+overflow-x-auto 
+xl:overflow-visible">
 
-    <div class="card w-full h-full bg-orange-100 rounded-[20px]">
+
+  <div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[388px] h-[338px]">
+
+    <div class="card w-full h-full bg-white shadow-2xl rounded-[20px]">
 
       <div class="p-6 space-y-4">
         <i class="fa-solid fa-house text-base xl:text-xl"></i>
@@ -442,14 +472,15 @@ class="absolute -bottom-16 right-12 sm:w-44 sm:h-36 lg:w-56 lg:h-44 xl:h-56 roun
 
     </div>
 
-    <button class="absolute bottom-0 right-0 px-6 py-1 bg-orange-500 rounded-full text-white shadow-lg">
+    <button class="absolute bottom-0 -right-6 py-1.5 px-6  bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2 ">
       Learn more
+      <i class="fa-solid fa-arrow-right"></i>
     </button>
 
   </div>
-  <div class="hover:-translate-y-2 relative w-[388px] h-[338px]">
+  <div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[388px] h-[338px]">
 
-    <div class="card w-full h-full bg-orange-100 rounded-[20px]">
+    <div class="card w-full h-full bg-white shadow-2xl rounded-[20px]">
 
       <div class="p-6 space-y-4">
         <i class="fa-solid fa-house xl:text-xl"></i>
@@ -466,14 +497,16 @@ class="absolute -bottom-16 right-12 sm:w-44 sm:h-36 lg:w-56 lg:h-44 xl:h-56 roun
 
     </div>
 
-    <button class="absolute bottom-0 right-0 px-6 py-1 bg-orange-500 rounded-full text-white shadow-lg">
+    <button class="absolute bottom-0 -right-6 py-1.5 px-6 bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2">
       Learn more
+            <i class="fa-solid fa-arrow-right"></i>
+
     </button>
 
-  </div>
-  <div class="hover:-translate-y-2 relative w-[388px] h-[338px]">
+  </div> 
+  <div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[388px] h-[338px]">
 
-    <div class="card w-full h-full bg-orange-100 rounded-[20px]">
+    <div class="card w-full h-full bg-white shadow-2xl rounded-[20px]">
 
       <div class="p-6 space-y-4">
         <i class="fa-solid fa-house xl:text-xl"></i>
@@ -490,14 +523,16 @@ class="absolute -bottom-16 right-12 sm:w-44 sm:h-36 lg:w-56 lg:h-44 xl:h-56 roun
 
     </div>
 
-    <button class="absolute bottom-0 right-0 px-6 py-1 bg-orange-500 rounded-full text-white shadow-lg">
+    <button class="absolute bottom-0 -right-6 py-1.5 px-6  bg-[#FE5443] rounded-full text-white shadow-lg  flex items-center justify-center gap-2">
       Learn more
+                  <i class="fa-solid fa-arrow-right"></i>
+
     </button>
 
   </div>
-  <div class="hover:-translate-y-2 relative w-[388px] h-[338px]">
+  <div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[388px] h-[338px]">
 
-    <div class="card w-full h-full bg-orange-100 rounded-[20px]">
+    <div class="card w-full h-full bg-white shadow-2xl rounded-[20px]">
 
       <div class="p-6 space-y-4">
         <i class="fa-solid fa-house xl:text-xl"></i>
@@ -514,14 +549,16 @@ class="absolute -bottom-16 right-12 sm:w-44 sm:h-36 lg:w-56 lg:h-44 xl:h-56 roun
 
     </div>
 
-    <button class="absolute bottom-0 right-0 px-6 py-1 bg-orange-500 rounded-full text-white shadow-lg">
+    <button class="absolute bottom-0 -right-6 py-1.5 px-6  bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2">
       Learn more
+                  <i class="fa-solid fa-arrow-right"></i>
+
     </button>
 
   </div>
-  <div class="hover:-translate-y-2 relative w-[388px] h-[338px]">
+  <div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[388px] h-[338px]">
 
-    <div class="card w-full h-full bg-orange-100 rounded-[20px]">
+    <div class="card w-full h-full bg-white shadow-2xl rounded-[20px]">
 
       <div class="p-6 space-y-4">
         <i class="fa-solid fa-house xl:text-xl"></i>
@@ -538,14 +575,16 @@ class="absolute -bottom-16 right-12 sm:w-44 sm:h-36 lg:w-56 lg:h-44 xl:h-56 roun
 
     </div>
 
-    <button class="absolute bottom-0 right-0 px-6 py-1 bg-orange-500 rounded-full text-white shadow-lg">
+    <button class="absolute bottom-0 -right-6 py-1.5 px-6 bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2">
       Learn more
+                        <i class="fa-solid fa-arrow-right"></i>
+
     </button>
 
   </div>
-  <div class="hover:-translate-y-2 relative w-[388px] h-[338px]">
+  <div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[388px] h-[338px]">
 
-    <div class="card w-full h-full bg-orange-100 rounded-[20px]">
+    <div class="card w-full h-full bg-white shadow-2xl rounded-[20px]">
 
       <div class="p-6 space-y-4">
         <i class="fa-solid fa-house xl:text-xl"></i>
@@ -562,13 +601,198 @@ class="absolute -bottom-16 right-12 sm:w-44 sm:h-36 lg:w-56 lg:h-44 xl:h-56 roun
 
     </div>
 
-    <button class="absolute bottom-0 right-0 px-6 py-1 bg-orange-500 rounded-full text-white shadow-lg">
+    <button class="absolute bottom-0 -right-6 py-1.5 px-6  bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2">
       Learn more
+                        <i class="fa-solid fa-arrow-right"></i>
     </button>
 
   </div>
 
 
+</div>
+
+
+  <div class="card1 w-full h-full bg-red-400 shadow-xl"></div>
+
+   <div class="absolute top-0 right-0 w-full ">
+
+     <div class=" w-12 h-12 flex justify-center ">
+       <img 
+       src="./src/assets/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg"
+       class="w-full h-full object-cover"
+       >
+      </div>
+    </div>
+
+</div> -->
+
+<section class="bg-[#F5F5F5] pt-20">
+  
+  <div class="max-w-[900px] mx-auto text-center px-6">
+
+    <!-- Heading -->
+    <h1 class="text-[48px] font-semibold text-[#313131] leading-tight">
+      We Shape Interiors That
+      <br>
+      <span class="text-[#FE5443]">Reflect</span> Your Story
+    </h1>
+
+    <!-- Description -->
+    <p class="mt-6 text-[18px] text-[#6B6B6B] leading-relaxed">
+      Our clients' experiences speak volumes. From concept to completion, they share 
+      how Arcattic's designs have transformed their spaces and exceeded expectations. 
+      Their trust and satisfaction are the foundations of our continued success.
+    </p>
+
+  </div>
+
+</section>
+
+<div class="grid 
+sm:grid-cols-2 
+lg:grid-cols-3 
+gap-8 
+sm:gap-x-36
+lg:gap-x-[320px]
+xl:gap-x-12
+lg:gap-12 
+overflow-x-auto 
+xl:overflow-visible">
+<div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[400px] h-[347px] mt-16">
+
+  <!-- CARD -->
+  <div class="card1 w-full h-full bg-white shadow-2xl rounded-[30px]  text-center">
+
+    <div class="py-14">
+
+    </div>
+    <!-- Name -->
+    <h2 class="font-semibold text-[#313131] text-2xl mt-2">
+      Md Rafi Islam
+    </h2>
+    <!-- Stars -->
+     <h2 class="text-[#FE5443] mt-2">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </h2>
+    <!-- Text -->
+    <p class="text-[#313131] text-[16px] leading-relaxed px-4 mt-1">
+      Being a part of Arc Inner is my greatest pleasure as I have been
+      working with really wonderful projects last 2 Years. We didn't
+      compromise with quality and commitment.
+    </p>
+
+  </div>
+  
+    <button class="absolute bottom-0 -right-2 py-1.5 px-6  bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2">
+      Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+  <!-- PROFILE IMAGE -->
+  <div class="absolute top-[4px] left-1/2 -translate-x-1/2">
+    <div class="w-[90px] h-[90px] rounded-full border-4 border-white overflow-hidden">
+      <img 
+        src="./src/assets/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg"
+        class="w-full h-full object-cover"
+      >
+    </div>
+  </div>
+
+</div>
+<div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[400px] h-[347px] mt-16">
+
+  <!-- CARD -->
+  <div class="card1 w-full h-full bg-white shadow-2xl rounded-[30px]  text-center">
+
+    <div class="py-14">
+
+    </div>
+    <!-- Name -->
+    <h2 class="font-semibold text-[#313131] text-2xl mt-2">
+      Md Rafi Islam
+    </h2>
+    <!-- Stars -->
+     <h2 class="text-[#FE5443] mt-2">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </h2>
+    <!-- Text -->
+    <p class="text-[#313131] text-[16px] leading-relaxed px-4 mt-1">
+      Being a part of Arc Inner is my greatest pleasure as I have been
+      working with really wonderful projects last 2 Years. We didn't
+      compromise with quality and commitment.
+    </p>
+
+  </div>
+  
+    <button class="absolute bottom-0 -right-2 py-1.5 px-6  bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2">
+      Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+  <!-- PROFILE IMAGE -->
+  <div class="absolute top-[4px] left-1/2 -translate-x-1/2">
+    <div class="w-[90px] h-[90px] rounded-full border-4 border-white overflow-hidden">
+      <img 
+        src="./src/assets/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg"
+        class="w-full h-full object-cover"
+      >
+    </div>
+  </div>
+
+</div>
+<div class="hover:-translate-y-2 duration-300 transition ease-in-out relative w-[400px] h-[347px] lg:mt-16">
+
+  <!-- CARD -->
+  <div class="card1 w-full h-full bg-white shadow-2xl rounded-[30px]  text-center">
+
+    <div class="py-14">
+
+    </div>
+    <!-- Name -->
+    <h2 class="font-semibold text-[#313131] text-2xl mt-2">
+      Md Rafi Islam
+    </h2>
+    <!-- Stars -->
+     <h2 class="text-[#FE5443] mt-2">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </h2>
+    <!-- Text -->
+    <p class="text-[#313131] text-[16px] leading-relaxed px-4 mt-1">
+      Being a part of Arc Inner is my greatest pleasure as I have been
+      working with really wonderful projects last 2 Years. We didn't
+      compromise with quality and commitment.
+    </p>
+
+  </div>
+  
+    <button class="absolute bottom-0 -right-2 py-1.5 px-6  bg-[#FE5443] rounded-full text-white shadow-lg flex items-center justify-center gap-2">
+      Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+  <!-- PROFILE IMAGE -->
+  <div class="absolute top-[4px] left-1/2 -translate-x-1/2">
+    <div class="w-[90px] h-[90px] rounded-full border-4 border-white overflow-hidden">
+      <img 
+        src="./src/assets/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg"
+        class="w-full h-full object-cover"
+      >
+    </div>
+  </div>
+
+</div>
 </div>
 
 
